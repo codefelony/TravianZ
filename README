@@ -1,0 +1,110 @@
+TravianZ is based on TravianX v6.0.0 with some graphics changes from ZravianX.
+
+
+1. Modified Plus System with packages.
+2. Modified in Plus System and added Account Statement.
+3. Enabled Report Player in Profile. Send message to Multihunter.
+4. Enabled Graphic Pack in Profile (NOT CODED YET).
+5. Enabled in Profile : Auto Completation , Large Map , Report Filter and Time Preferences (NOT CODED YET).
+6. Integrate Support Section in game.
+7. Modified footer and menu and added version and bugs (I mean detailed version.php and bugs.php).
+8. Modified all admin page , now all pictures appers correctly.
+9. Added night / day pictures. (thanks to advocaite).
+10. Activate inactive player in Admin Panel.
+11. Added Server Maintenence in Admin Panel (Not working 100% , i mean mode ban all players).
+12. Activate Player Report in Admin Panel (NOT CODED YET).
+13. Many bug fixed in Admin Panel.
+14. Negative crop fixed , now units die (starvation). WORKS LIKE REAL TRAVIAN !!!
+15. Medal fixed.
+16. Added new quests (alliance , main building 5 , granary level 3 , warehouse level 5 , palace or residence , 3 settlers , new village , wall).
+17. Winner decoded end time fixed , 403 , 404 , 500 errors are now decoded.
+18. Populate and regenerate oasis automation function added and fixed.
+19. Fixed palace , now cannot be build more than one palace / accout.
+20. Now you need a warehouse and granary level 20 to build great granary and great warehouse.
+21. Cannot send attacks and send resource to banned players.
+22. Now banned palyer cannot recive resource from marketplace.
+23. Fix message replay , now can be viwed from who came message.
+24. Added in instalation Nature Regeneration Time.
+25. Fix oasis.tpl in instalation files.
+26. Fix ranking search from everyware.
+27. Fix "Finish all constructions for 2 gold." now you dont lose gold when you simply click.
+28. Fix bonus on artefacts , now show what bonus gives you.
+29. Fix settler bug , now you cannot train settlers if you dont have resource. And also modifyResource function updated.
+30. Fix brewerey now can be build only on capital.
+31. Fix treasurey and palace , now cannot be build on WW village.
+32. Fix greatbarraks.
+33. Fix eraseble hero , now you can delete your hero.
+34. Fix desapear hero when you send as reinforcement.
+35. Fix message problem with.
+36. Fix train hero for unit pretorian
+37. Fix merchant quantity
+38. Fix battle system for catapults
+39. Fix delete player in admin panel
+40. Added automated system for give medals and also added in instalation file
+41. Fix special characters when send troops
+45. Fix bug 10 from NarcisRO list : If you have plus account activated you cannot see the attck/deff/scout images when you attack a village (i mean img on villages : red swords etc..)
+43. Fix forum surveys - NOT DONE
+44. Fix wall image when spy someone for every tribe
+45. Fix the top romans/teutons/gauls icon must show you the first rank of each race,not the whole page
+46. Fix destroy village bug
+47. Fix conquer oasis.
+48. Fix movements.tpl (now show purple sword if your oasis is attacked or if you found new village)
+49. Fixed movements on rally point if your oasis is under attack
+50. Fixed vulnerability attack on message.
+51. Fixed scouting all player when create natars.
+52. Fixed catapult if have artefact for random target. Now can target WW even have that artefact like says.
+53. Fix special characters on message (script alert not work now).
+54. Fix mightiest bug of travian , double troops , now you won't have any problems with double troops. Works for own units and for enforcement units.
+55. Fix catapult target on brewerey , now you can target brewerey.
+56. Added loss protection if you have beginner protection and want to attack a player you loss protection.
+57. Fix artefacts, will not win more artifacts from the same village.
+58. Fix UTF8 in database and sql.sql file.
+59. Fixed Username HACK on register.
+60. Fixed Village hack in profile.
+61. Fixed a Bug where Founder or a user in alliance can kick himself.
+62. Fixed new village must build a rally point.
+63. Fix sorting distance artefact village.
+64. Fix to conquer oasis: can conquer 1 attack if nature troop die.
+65. Fix report scout by Natars. Now report player can see.
+66. Fix area and location like real travian.
+67. Fix field natar village set to type=3.
+68. Fix natar village area 400/400 or WORLD_MAX not the random area.
+69. Fix create_account : cannot create natar if already exist.
+70. Fix counter timer if timer < 0 = display 0:00:00 and not display like your time pc.
+71. Fix quest_core , now is like real travian.
+72. Fix update oasis unit.
+73. Fixed Registration hack.
+74. Fixed Village hack hidden village and <name> !
+75. Fixed hidden Alliance name and fixed the bug of kicking your self if you are founder or anything else.
+76. Fix conquer artefact.
+77. Fix ranking and Quest 4.
+78. Fix finishAll building/demolition/tecknology.
+79. Fix conquer Occupied Oasis.
+80. Fix NPC trade on settler in village or palace.
+81. Fix bug when paste address to update building or resource , now not possible to upgrade.
+82. Fix spy : When defender has no spy's in his village, an incomming spy attack should be unnoticed, and the defender shouldn't get a report and also there shouldn't appear red swords in dorf.1 when there are no own spy's in village.
+83. Fix village to destroy and less query.
+84. Fix settler to raid (1 unit of settler can carry 3000 resource...wow!!)
+85. Fix dorf3 , now timer works corectly.
+86. Added timezone in instalation file , and can be edited after installation on config.
+87. The damage must be calculate for all troops as a defender.
+88. Battle system is fixed and it`s work like real travian.
+89. War Simulator system is fixed and it`s work like real travian.
+90. Fix calculation culturepoint according to the speed server.
+91. Fix to delete hero table when delete user from admin.
+92. Fix link to coor village from admin.
+93. Fix return troops if village destroy.
+94. Fix link list multivillage.
+95. Fix rally point to list troops own/other village/oasis.
+96. Fix recive report when other player send me reinforcement to my oasis
+97. Fix calculate defender hero
+98. Fix enforcement oasis
+99. Fix hero XP calculation by crop consumed and share point hero xp
+100. Fix chiefting village only normal attack can reduce loyalty
+101. Fix conquered oasis. Hero must use normal attack if oasis is conquered by other player.
+102. Fix destroy village.
+103. Fix returntroop in oasis when destroy village.
+104. Fix total point hero and statistics calculation by crop consumption.
+105. Fix hero reinfocement sometimes mising in action.
+106. Fix total of trapper bug is full trapp if 1 troop only you send.
+107. Fix invalid argument supplied if using masterbuilder.
